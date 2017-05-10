@@ -4,7 +4,7 @@ body {
     /* background-image: url('http://lewagon.github.io/html-css-challenges/shared/images/space-odyssey.jpg'); */
     /*text-align: center;*/
     font-family: 'Open Sans', sans-serif;
-    background-color: #E8E8E8;
+    background-color: #88968e;
 }
 
 
@@ -72,11 +72,11 @@ body {
     background-color: #EC5B59;
 }
 
-.list-inline{
-
+.list-inline {
+  padding-left: 0px;
 }
 
-.list-inline li{
+.list-inline > li{
     display: inline-block;
     margin-left: 5px;
     margin-right: 5px;
@@ -88,6 +88,18 @@ h2:hover{
 
 .movie{
     width: 100px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+.text-center{
+  text-align: center;
+}
+.card-white {
+  background: white;
+  padding: 30px;
+  border: 1px solid lightgrey;
 }
 
 /*<table>..<img>*/
@@ -108,7 +120,7 @@ h6 {
 /*<h1>*/
 h1 {
     color: #50B948;
-    background-color: #EFD8CD;
+
 }
 
 /*<h2>*/
